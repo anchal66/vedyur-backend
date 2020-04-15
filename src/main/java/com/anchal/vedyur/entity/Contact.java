@@ -24,10 +24,10 @@ public class Contact {
     private  String lastName;
 
     @Column(name = "email")
-    private  String lastName;
+    private  String email;
 
     @Column(name = "subject")
-    private  String lastName;
+    private  String subject;
 
     @Column(name = "message")
     private String message;
