@@ -23,6 +23,12 @@ public class Contact {
     @Column(name = "last_name")
     private  String lastName;
 
+    @Column(name = "email")
+    private  String lastName;
+
+    @Column(name = "subject")
+    private  String lastName;
+
     @Column(name = "message")
     private String message;
 
